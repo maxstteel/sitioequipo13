@@ -39,7 +39,7 @@ nav .nav-list {
 nav .nav-list .nav-item {
     cursor: pointer;
     height: 100%;
-    padding: 0 30px;
+    padding: 0 0px;
     transition: .4s;
 }
 
@@ -51,20 +51,32 @@ nav .nav-list .nav-link {
     color: #f1f1f1;
     font-size: 18px;
     font-weight: 500;
+    padding: 28px 30px 28px 30px;
 }
 
 @media (max-width: 935px) {
     
+    input:checked ~ nav .nav-list {
+        transform: translateY(0%);
+        z-index: 1;
+    }
+
     nav {
         padding: 0 2rem;
     }
 
-    nav .nav-list .nav-item {
+    nav .nav-list .nav-item{
         padding: 0 20px;
+
     }
+
+    nav .nav-list .nav-link {
+        padding: 27px 800px 27px 0px;
+    }
+
 }
 
-@media (max-width: 675px) {
+@media (max-width: 935px) {
 
     nav .nav-list {
         display: grid;
@@ -75,7 +87,7 @@ nav .nav-list .nav-link {
         left: 0;
         transform: translateY(-100%);
         z-index: -1;
-        transition: .6s;
+        transition: .3s;
     }
 
     nav .nav-list .nav-item {
@@ -84,13 +96,6 @@ nav .nav-list .nav-link {
 
     nav .navbar-toggler {
         display: grid !important;
-    }
-}
-@media (max-width: 600px) {
-
-    input:checked ~ nav .nav-list {
-        transform: translateY(0%);
-        z-index: 1;
     }
 }
 
@@ -138,5 +143,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
 
 main {
     position: relative;
+    margin-top: 50px;
     margin-left: 50px;
+    font-size: 25px;
 }
