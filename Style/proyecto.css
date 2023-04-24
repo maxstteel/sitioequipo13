@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("/Imgs/fondoproyecto.png");
+    background-image: url("/imgs/fondoproyecto.png");
     background-color: rgb(56, 52, 52);
 }
 
@@ -124,7 +124,7 @@ main {
 
     body {
         background-size: 130%;
-        background-image: url("/Imgs/fondoproyectores.png");
+        background-image: url("/imgs/fondoproyectores.png");
         background-color: rgb(56, 52, 52);
     }
 
