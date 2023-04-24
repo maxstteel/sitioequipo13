@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("./imgs/fondo.png");
+    background-image: url("../imgs/fondo.png");
     background-color: rgb(56, 52, 52);
 }
 
@@ -128,7 +128,7 @@ main {
 
     body {
         background-size: 115%;
-        background-image: url("/imgs/fondores.png");
+        background-image: url("../imgs/fondores.png");
         background-color: rgb(56, 52, 52);
     }
 
