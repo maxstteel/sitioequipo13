@@ -127,7 +127,7 @@ main {
 @media (max-width: 935px) {
 
     body {
-        background-size: 130%;
+        background-size: 120%;
         background-image: url("../imgs/fondowipres.png");
         background-color: rgb(56, 52, 52);
     }
