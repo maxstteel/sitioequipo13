@@ -103,7 +103,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
 main {
     color: #ffffff;
     position: relative;
-    margin-top: 250px;
+    margin-top: 180px;
     margin-left: 140px;
     font-size: 25px;
     display: flex;
@@ -111,6 +111,10 @@ main {
 .main-item {
     margin-bottom: 60px;
     text-shadow: 0px 1px 0 rgb(255, 102, 0);
+}
+
+#descsitio{
+    padding-top: 60px;
 }
 
 .main-item2 {
@@ -123,14 +127,22 @@ main {
     list-style: none;
     text-align: right;
 }
+
+#one{
+    position: relative;
+    top: 00px;
+}
+
 #two{
     position: relative;
-    top: 40px;
+    top: 30px;
 }
 #three{
     position: relative;
     top: 95px;
 }
+
+
 
 @media (max-width: 935px) {
 
@@ -198,6 +210,8 @@ main {
     nav .navbar-toggler {
         display: grid !important;
     }
+
+
 }
 @media (max-width: 880px) {
     nav .nav-list .nav-link {
@@ -217,12 +231,13 @@ main {
         position: relative;
         top: 120px;
     }
+
 }
 @media (max-width: 825px) {
     nav .nav-list .nav-link {
         padding: 27px 83% 27px 30px;
     }
-    
+
 }
 @media (max-width: 650px) {
     .main-item2{
@@ -238,6 +253,7 @@ main {
         position: relative;
         top: 105px;
     }
+
 }
 @media (max-width: 530px) {
     nav .nav-list .nav-link {
@@ -256,7 +272,7 @@ main {
         position: relative;
         top: 100px;
     }
-    
+
 }
 @media (max-width: 475px) {
     nav .nav-list .nav-link {
@@ -268,6 +284,7 @@ main {
         padding: 27px 68% 27px 30px;
     }
     .main-item{
+        padding-bottom: 16px;
         width: 150px;
         margin-right: 10px;
         margin-left: 5px;
@@ -276,6 +293,7 @@ main {
         width: 130px;
         margin-right: 10px;
         margin-left: 5px;
+        display: block;
     }
     #two{
         position: relative;
@@ -283,8 +301,19 @@ main {
     }
     #three{
         position: relative;
+        display:inline-block;
         top: 70px;
+        text-align: start;
+        width: fit-content  ;
     }
+
+    body{
+        background-image: none;
+        background-color: rgb(20, 19, 19);
+    }
+    
+
+
 }
 @media (max-width: 380px) {
     nav .nav-list .nav-link {
