@@ -140,8 +140,9 @@ main {
 }
 
 .foto-max {
-    width: auto;
+    width: 150px;
     height: 150px;
+    object-fit: cover;
 }
 
 @media (max-width: 935px) {
