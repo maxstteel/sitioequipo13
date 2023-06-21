@@ -112,7 +112,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
 main {
     color: #ffffff;
     position: relative;
-    margin-top: 250px;
+    margin-top: 190px;
     margin-left: 140px;
     font-size: 25px;
     display: flex;
@@ -136,7 +136,7 @@ main {
 @media (max-width: 935px) {
 
     body {
-        background-size: 140%;
+        background-size: 154%;
         background-image: url("../imgs/fondowipres.png");
         background-color: rgb(56, 52, 52);
     }
@@ -144,7 +144,7 @@ main {
     main {
         color: #ffffff;
         position: relative;
-        margin-top: 10%;
+        margin-top: 15%;
         margin-left: 12%;
         font-size: 16px;
         display: flex;
